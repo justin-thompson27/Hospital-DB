@@ -22,7 +22,8 @@
   "homepage": "https://github.com/justin-thompson27/Hospital-DB#readme",
   "dependencies": {
     "express": "^5.2.1",
-    "mongodb": "^7.7.0"
+    "mongodb": "^7.7.0",
+    "zod": "^4.6.5"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
