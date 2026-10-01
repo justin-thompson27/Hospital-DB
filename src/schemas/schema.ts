@@ -23,7 +23,8 @@ export const createDepartmentSchema = z.object({
 })
 
 export const createDoctorsSchema = z.object({
-  fullName: z.string().min(1, "Full name is required")
+  fullName: z.string().min(1, "Full name is required"),
+  departmentID: z.
 })
 function Test()
 {
