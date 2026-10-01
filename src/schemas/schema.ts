@@ -17,6 +17,14 @@ export const createPatientSchema = z.strictObject({
 
 });
 
+
+export const createDepartmentSchema = z.object({
+  departmentName: z.string().min(1,"Department Name is required.")
+})
+
+export const createDoctorsSchema = z.object({
+  fullName: z.string().min(1, "Full name is required")
+})
 function Test()
 {
   try {
