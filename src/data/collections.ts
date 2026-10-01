@@ -35,7 +35,7 @@ interface Appointments
 
 }
 
-interface medicalRecords
+interface MedicalRecords
 {
   _id: ObjectId,
   patientID: ObjectId,
@@ -43,7 +43,5 @@ interface medicalRecords
   medicines: string,
   prescribedDate: Date,
   allergies: string,
-   
-
 
 }
